@@ -1,0 +1,64 @@
+    a {color: #028CE5; text-decoration: none;}
+
+  header{
+    background: #f5f5f5;
+    background: -moz-linear-gradient(top,#fafafa,#f5f5f5);
+    background: -webkit-linear-gradient(top,#fafafa,#f5f5f5);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fafafa),color-stop(1,#f5f5f5));
+    background: linear-gradient(top,#fafafa,#f5f5f5);
+    border-bottom: 1px solid #eee;
+    color: #444;
+    min-height: 44px;
+    padding: 7px 50px 0px;
+    position: fixed;
+    font-size: 13px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+  body{margin: 0px;font-family: Verdana, Arial, Helvetica, sans-serif;}
+  .bgimg{position:fixed; width: 100%; height: 100%;z-index: -1;}
+  footer{
+    background: #f5f5f5;
+    background: -moz-linear-gradient(top,#fafafa,#f5f5f5);
+    background: -webkit-linear-gradient(top,#fafafa,#f5f5f5);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fafafa),color-stop(1,#f5f5f5));
+    background: linear-gradient(top,#fafafa,#f5f5f5);
+    border-top: 1px solid #eee;
+    color: #444;
+    min-height: 44px;
+    padding: 7px 50px 0px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;}
+
+.hello{
+    width: 100%;margin-top: 74px;text-align: center;border-bottom: 1px solid #555;font-size: 30px;color: #fff;
+    background-color: #028CE5;
+    background-image: url('../images/headerBack.png');
+    padding-top: 25px;padding-bottom: 25px;font-weight: bold;
+}
+  .contentDiv{box-shadow:3px 5px 5px 1px rgba(0,0,0, 0.28);
+-moz-box-shadow:3px 5px 5px 1px rgba(0,0,0, 0.28);
+-webkit-box-shadow:3px 5px 5px 1px rgba(0,0,0, 0.28);width: 65%; max-width: 900px;margin-left: auto; margin-right: auto;padding: 20px;background-color: #fff;margin-top: 60px;font-size: 14px;border-radius: 20px;}
+  .masterBotton{margin-left: auto; margin-right: auto;padding: 20px;background-color: #028CE5;width: 50%; max-width: 300px; text-align: center;color: #fff;border-radius: 20px;font-size: 14px;margin-top: 20px; }
+  .formButton{padding: 8px; width: 90%;max-width: 400px;text-align: center;margin: 8px;}
+
+
+  #page-top a {
+    background: #009ee9;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+
+#page-top{
+    display: block;
+    position: fixed;
+    right: 15px; bottom: 50px;
+}
